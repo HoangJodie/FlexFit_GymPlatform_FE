@@ -1,0 +1,14 @@
+html, body {
+    height: 100%; /* Đảm bảo chiều cao 100% */
+    margin: 0; /* Đảm bảo không có khoảng trống ngoài */
+}
+
+.flex-1 {
+    overflow-y: scroll; /* Cho phép cuộn dọc trong nội dung admin */
+    scrollbar-width: none; /* Ẩn thanh cuộn trên Firefox */
+    -ms-overflow-style: none; /* Ẩn thanh cuộn trên Internet Explorer và Edge */
+}
+
+.flex-1::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn trên Chrome, Safari và Opera */
+}

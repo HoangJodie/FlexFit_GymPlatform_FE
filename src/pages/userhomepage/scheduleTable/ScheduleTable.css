@@ -1,0 +1,26 @@
+.schedule-table {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid #ccc;
+  }
+  
+  .schedule-cell {
+    position: relative;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .day {
+    text-align: center;
+    padding: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .has-schedule {
+    background-color: #ffeeaa; /* Màu vàng nhạt */
+  }
+  
+  .schedule-content {
+    padding: 10px;
+    text-align: center;
+  }

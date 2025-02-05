@@ -1,0 +1,52 @@
+/* PersonalTrainer.css */
+.pt-container {
+    display: flex;
+    height: 100vh;
+}
+
+.pt-menu {
+    width: 200px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pt-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.pt-title {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.pt-description {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.pt-button {
+    background-color: #9b2b2b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.pt-button:hover {
+    background-color: #0056b3;
+}
